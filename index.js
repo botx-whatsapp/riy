@@ -3088,8 +3088,8 @@ templateButtons: [
 {
 index: 1, 
 urlButton: {
-displayText: 'YouTube Creator', 
-url: `${youtube}`
+displayText: 'Instagram', 
+url: `${ig}`
 }
 },
 ],
@@ -3106,8 +3106,8 @@ templateButtons: [
 {
 index: 1, 
 urlButton: {
-displayText: 'YouTube Creator', 
-url: `${youtube}`
+displayText: 'Instagram', 
+url: `${ig}`
 }
 },
 ],
@@ -3118,13 +3118,13 @@ break
 case 'owner': case 'creator': {
 chika.sendContact(m.chat, global.owner, m)
 const templateMessage = {
-text: 'Tuh Kak Owner Ku',footer: `© ${ownername}`,
+text: 'Tuh Kak Owner Ku, Jangan Dispam Ya:)',footer: `© ${ownername}`,
 templateButtons: [
 {
 index: 1, 
 urlButton: {
-displayText: 'YouTube Creator', 
-url: `${youtube}`
+displayText: 'Instagram', 
+url: `${ig}`
 }
 },
 ],
@@ -3329,7 +3329,7 @@ break
 case 'allmenu': {
 if(typemenu == 'image'){
 var riych = await getBuffer(picak+'All Menu')
-await chika.send5ButImg(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
+await chika.send5ButImg(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `  © ${ownername}` [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
 }
 if(typemenu == 'gif'){
 await chika.send5ButGif(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `  © ${ownername}`,velochika, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
