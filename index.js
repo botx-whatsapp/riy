@@ -3316,7 +3316,7 @@ await chika.sendListMenu(from, `Selamat ${salam} kak ${pushname}` , lang.list(pu
 break
 case 'menu': {
 if(typemenu == 'image'){
-await chika.send5ButImg(from, `` + '' + lang.menu(botname, pushname, salam), `© ${ownername}`,thumb, [{"urlButton": {"displayText": "Instagram","url": `${instagram}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Menu","id": 'command'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
+await chika.send5ButImg(from, `` + '' + lang.menu(botname, pushname, salam), `© ${ownername}`,thumb, [{"urlButton": {"displayText": "Instagram","url": `${ig}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Menu","id": 'command'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
 }
 if(typemenu == 'gif'){
 await chika.send5ButGif(from, `` + '' + lang.menu(botname, pushname, salam), `© ${ownername}`,velochika, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Menu","id": 'command'}}] )
