@@ -949,6 +949,12 @@ exports.ownermenu = (prefix) => {
   `
 }
 
+exports.rules = (prefix) => {
+	return`
+  Tes
+  `
+}
+
 //tqto gsh di hps y :) kalau mai tmbhin aja nama kalian!
 exports.thanksto = () => {
 	return`
